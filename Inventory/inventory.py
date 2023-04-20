@@ -239,11 +239,11 @@ print('Products imported')
 while True:
     #prints menu for the user
     menu = input('''Select one of the following Options below:
-c - to capture a shoe
+c - To capture details for a shoe product
 va - View all shoes
 rs - to restock shoes
 s - search shoe
-v - value for every shoe
+v - View the total stock value for each shoe product
 h - to print producct with the highest quantity
 e - Exit
 : ''').lower()

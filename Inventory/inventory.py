@@ -239,11 +239,11 @@ print('Products imported')
 while True:
     #prints menu for the user
     menu = input('''Select one of the following Options below:
-c - to capture details for a new shoe product
+c - to capture a shoe
 va - View all shoes
 rs - to restock shoes
 s - search shoe
-v - To view the total stock value for each shoe
+v - value for every shoe
 h - to print producct with the highest quantity
 e - Exit
 : ''').lower()
@@ -285,7 +285,7 @@ e - Exit
 
     #Allows the user to exit the program
     elif menu == 'e':
-        print('Goodbye!!!')
+        print('Thank you for using our program. Goodbye!')
         #exit function is called
         exit()
     else:

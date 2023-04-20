@@ -285,7 +285,7 @@ e - Exit
 
     #Allows the user to exit the program
     elif menu == 'e':
-        print('Goodbye!!!')
+        print('Thank you for using our program. Goodbye!')
         #exit function is called
         exit()
     else:
